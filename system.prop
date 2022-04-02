@@ -59,6 +59,17 @@ media.aac_51_output_enabled=true
 av.debug.disable.pers.cache=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
+# Dex
+dalvik.vm.dex2oat64.enabled=true
+persist.bg.dexopt.enable=true
+dalvik.vm.dexopt.secondary=true
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=6
+
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
 
