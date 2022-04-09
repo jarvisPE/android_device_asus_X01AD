@@ -60,6 +60,10 @@ debug.cpurend.vsync=false
 debug.renderengine.backend=skiaglthreaded
 ro.opengles.version=196610
 
+# Set system properties identifying the chipset
+ro.soc.manufacturer=QTI
+ro.soc.model=SDM632
+
 # Surfaceflinger
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
