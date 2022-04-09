@@ -45,6 +45,10 @@ vendor.display.disable_skip_validate=1
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
+# Recovery
+persist.sys.binary_xml=false
+
+
 #ro.hdmi.enable=true
 #
 # system props for the cne module
