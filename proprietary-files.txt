@@ -2237,6 +2237,7 @@ vendor/lib/egl/libGLESv2_adreno.so|15104ce575d5fb6282502fcf73ea27b6f52429bc
 vendor/lib/egl/libQTapGLES.so|957d9c98f3c29e7bf1da02fedac0789ada49dc70
 vendor/lib/egl/libq3dtools_adreno.so|b4b7bda387620de5f6ea2a29406f9351e855b8ed
 vendor/lib/hw/vulkan.msm8953.so|c24dee59782e94c119e1e6ae00ac05c2d67c3f93
+vendor/lib/hw/vulkan.adreno.so
 vendor/lib/libC2D2.so|c04a5ac1e576f63ebe91aba14bf917ee9e382be0
 vendor/lib/libCB.so|15986a50f98c979833e5d651eedcffaf19e54e3b
 vendor/lib/libOpenCL.so|9ee3900265f9b855f526c0ce4fcfdaed51d62003
@@ -2258,6 +2259,7 @@ vendor/lib64/egl/libGLESv2_adreno.so|4c9e3f723daf6a3f6d4301e3527472654c8bedf1
 vendor/lib64/egl/libQTapGLES.so|104e9cec67678174b92a698849aa2bcf52ba46ce
 vendor/lib64/egl/libq3dtools_adreno.so|8f6043f22c23c76e7e17bc9642957f648bec1e50
 vendor/lib64/hw/vulkan.msm8953.so|8c01e237bdc542ca682cb97ce28f264135033fab
+vendor/lib64/hw/vulkan.adreno.so
 vendor/lib64/libC2D2.so|ff2d4947c7924376ff66517461246d238e221e05
 vendor/lib64/libCB.so|df167809abe16674a61742ba6efb208edd069a3b
 vendor/lib64/libOpenCL.so|84c7d8be13885c9346f73c09aaaedc3bce7667d9
@@ -2268,24 +2270,26 @@ vendor/lib64/libc2d30_bltlib.so|644a88f490cc883492d94b9f581127fb33f51415
 vendor/lib64/libgsl.so|5453da1723c3b014850165b42236ba26af11a7ad
 vendor/lib64/libhdr_tm.so|c388a9b14966583cde2c682c129fcf5cfa298239
 vendor/lib64/libllvm-glnext.so|dad8139672a9dcff4270a58599aa1b72d13e62fc
-vendor/lib64/libllvm-qcom.so|88f4199538ce887c91936bf70eef31615c938aa2
+vendor/lib64/libllvm-qcom.so
 vendor/lib64/libmm-hdcpmgr.so|73d428151e99086ac3e48db95a660e7d7807a8e3
 vendor/lib64/librs_adreno.so|e41149794e719c7f743c4d800def68a5c8e5f9ca
 vendor/lib64/librs_adreno_sha1.so|f9d28682f9c219dfe086da9f3a15aaddbcd38a05
 
 # Graphics (SDM) - from daisy-user-10-QKQ1.191002.002-V11.0.10.0.QDLMIXM-release-keys
-vendor/lib/libscalar.so|7ac579768ffd2caee903d69d8fd3f7918b04ffbe
-vendor/lib/libsdm-color.so|fa3f8c0062d474fdf6960fcbcc3bf21a5c3fd594
-vendor/lib/libsdm-diag.so|46b5c2d6fab1e655efde1657b2e51dc00c00b763
-vendor/lib/libsdm-disp-vndapis.so|9bd99e0024f5abcc285f64aadea8725556f16789
-vendor/lib/libsdmextension.so|b6a2100c733b7a5c4688bb9bcae581461ada70f3
-vendor/lib/libtinyxml2_1.so|ef2167416f7a5a503256c5e818fcfa660d5146f4
-vendor/lib64/libscalar.so|b7feb3266d5bccab8b26c49eea6ac8e295192f9a
-vendor/lib64/libsdm-color.so|993dc946c4aa439280527c13798938c51dd9dee7
-vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
-vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
-vendor/lib64/libsdmextension.so|47b7fcfb790df4417654c566af1a8a74d4bf3e2f
-vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
+vendor/lib/libscalar.so
+vendor/lib/libsdm-color.so
+vendor/lib/libsdm-diag.so
+vendor/lib/libsdm-disp-apis.so
+-vendor/lib/libsdm-disp-vndapis.so
+vendor/lib/libsdmextension.so
+vendor/lib/libtinyxml2_1.so
+vendor/lib64/libscalar.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-diag.so
+vendor/lib64/libsdm-disp-apis.so
+-vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libtinyxml2_1.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
