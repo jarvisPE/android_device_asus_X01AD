@@ -28,7 +28,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Arcana specifics
-ARCANA_MAINTAINER := Shubhendu
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
