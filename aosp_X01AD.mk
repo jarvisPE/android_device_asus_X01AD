@@ -27,11 +27,15 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Pixel Experience specifics
+# Arcana specifics
+ARCANA_MAINTAINER := Shubhendu
+WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_NOW_PLAYING := true
+USE_PIXEL_CHARGER_IMAGES := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifiers.
