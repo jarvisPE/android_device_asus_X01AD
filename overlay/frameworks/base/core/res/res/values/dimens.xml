@@ -20,6 +20,6 @@
 <resources>
 
     <!-- Radius of the software rounded corners. -->
-     <dimen name="rounded_corner_radius">68px</dimen>
+     <dimen name="rounded_corner_radius">67px</dimen>
 
 </resources>
