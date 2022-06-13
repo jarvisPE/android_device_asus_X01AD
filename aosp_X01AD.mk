@@ -47,6 +47,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=X01A_1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 12 SP2A.220405.003 8210211 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 12 SQ3A.220605.009.A1 8643238 release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SP2A.220405.003/8210211:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys"
