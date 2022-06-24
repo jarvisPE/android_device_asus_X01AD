@@ -92,8 +92,7 @@ PRODUCT_PACKAGES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService \
-    com.dsi.ant.antradio_library
+    AntHalService
 
 # Audio - A2DP
 PRODUCT_PACKAGES += \
