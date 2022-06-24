@@ -545,6 +545,7 @@
     </string-array>
 
     <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/framework.jar"</item>
         <item>"/system/framework/services.jar"</item>
         <item>"/apex/com.android.runtime/javalib/core-oj.jar"</item>
